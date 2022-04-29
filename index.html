@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+<body>
+    <section id="banner">
+        <img src="img/logo.png" class="logo" alt="#">
+        <div class="banner-text">
+            <h1>Barbershop</h1>
+            <p>Стиль твоей прически - это твой стиль жизним !</p>
+            <div class="banner-btn">
+                <a href="#" id="open_pop_up"> <span></span>Записаться</a>
+            </div>
+        </div>
+        <div class="pop_up" id="pop_up">
+            <div class="pop_up_container">
+                <div class="pop_up_body" id="pop_up_body">
+
+                      <form action="#" name="form">
+                        <input type="text" 
+                        placeholder="Ваше имя"
+                        name="name"
+                        id="name"
+                        data-reg="^[А-ЯЁ][а-яё]*$">
+                        <input 
+                        type="text" 
+                        placeholder="Телефон в формате: 88000000000"
+                        name="phone"
+                        id="phone"
+                        data-reg="^((\+7|7|8)+([0-9]){10})$">
+                        <button class="atention" id="button">Оставить заказ</button>
+                    </form>
+                    
+                    <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">Главная</a></li>
+                <li><a href="#feature">Особенности</a></li>
+                <li><a href="#service">Сервис</a></li>
+                <li><a href="#testimonial">Наши барберы</a></li>
+                <li><a href="#job">Наша работа</a></li>
+                <li><a href="#sale">Цены</a></li>
+                <li><a href="#footer">Контакты</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="img/menu.png" alt="fotomenu" id="menu">
+    </div>
+<!--Features-->
+<section id="feature">
+    <div class="title-text">
+        <p>ОСОБЕННОСТИ</p>
+        <h2>Почему нужно выбрать нас</h2>
+    </div>
+    <div class="feature-box">
+        <div class="features">
+              <h2>Опытный персонал</h2>
+              <div class="features-desc">
+                  <div class="feature-icon">
+                      <i class="fa fa-shield"></i>
+                  </div>
+                  <div class="feature-text">
+                      <p>
+                        Уход за волосами - это то, в чем мы действительно разбираемся. У нас есть опыт, благодаря которому мы уверенно подскажем, какой стиль
+                        прически и средства подходят именно Вам. В Вашем распоряжении целый арсенал отборной мужской косметики, которая поможет
+                        «держать марку» между визитами в наш барбершоп. 
+                      </p>
+                  </div>
+              </div>
+
+              <h2>Предварительное бронирование онлайн</h2>
+              <div class="features-desc">
+                  <div class="feature-icon">
+                    <i class="fa fa-check-square-o"></i>
+                  </div>
+                  <div class="feature-text">
+                      <p>
+                         Время - деньги! В наше безумное время нужно уметь правильно распоряжяться самым драгоценным ресурсом - временем, и именно поэтому для Вас мы подготовили современную и удобную форму бронирования.
+                      </p>
+                  </div>
+              </div>
+
+              <h2>Доступная стоимость</h2>
+              <div class="features-desc">
+                  <div class="feature-icon">
+                    <i class="fa fa-inr"></i>
+                  </div>
+                  <div class="feature-text">
+                      <p>
+                        В нашем барбершопе нет пафоса. Здесь ценят простые вещи. Порядочность. Преданность. Самоиронию. А в своих гостях мы видим
+                        прежде всего личность. И все что мы делаем — отражаем ее наилучшим образом.
+                      </p>
+                  </div>
+              </div>
+
+        </div>
+        <div class="features-img">
+            <img src="img/barber-man.jpg" alt="#">
+      </div>
+    </div>
+</section>
+<!--Service-->
+<section id="service">
+    <div class="title-text">
+        <p>СЕРВИС</p>
+        <h2>Мы предоставляем лучшее</h2>
+    </div>
+    <div class="service-box">
+        <div class="single-service">
+            <img src="img/pic-1.jpg" alt="#">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Hair Styling</h3>
+                <hr>
+                <p>Перед началом выполнения услуги, Барбер выслушает ваши пожелания. В процесс выполнения услуги входит мытьё головы до и после, непосредственно стрижка волос, финишная укладка с использованием стайлинговых средств.</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="img/pic-2.jpg" alt="#">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Hair Styling</h3>
+                <hr>
+                <p>Бритье опасной бритвой – это статусная услуга для настоящих мужчин и целый ритуал, который включает в себя очищение, распаривание и массаж лица.</p>
+            </div>
+        </div>
+        <div class="single-service">
+        <img src="img/pic-3.jpg" alt="#">
+        <div class="overlay"></div> 
+        <div class="service-desc">
+            <h3>Hair Styling</h3>
+            <hr>
+            <p>Процедура включает в себя мытье головы и непосредственно стайлинг.</p>
+        </div>   
+        </div>
+        <div class="single-service">
+        <img src="img/pic-4.jpg" alt="#"> 
+        <div class="overlay"></div> 
+        <div class="service-desc">
+            <h3>Hair Styling</h3>
+            <hr>
+            <p>Процедура с использованием терапевтических средств. Направлена на улучшение структуры и роста волос, оздоровление кожи головы.</p>
+        </div>  
+        </div>
+    </div>
+
+</section>
+<!--Testimonial-->
+<section id="testimonial">
+    <div class="title-text">
+        <p>Наши барберы</p>
+        <h2>Что они говорят</h2>
+    </div>
+    <div class="testimonial-row">
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="img/img-1.jpg" alt="#">
+                <div class="user-info">
+                    <h4>Игорь Чайка <i class="fa fa-twitter"></i> </h4>
+                    <small>@chaika1972</small>
+                </div>
+            </div>
+            <p>
+                Больше 5 лет занимаюсь любимым делом, оформляя и создавая уникальный мужской стиль своим клиентам. Выпускник академии берберского мастерства «Франт» 2016 года. Дополнительно проходил обучение в  школе“Tony & guy”, а в 2019 году повышал квалификацию в Милане. Приверженец классической стрижки во всех её пониманиях, при этом не пренебрегаю модными веяниями и тенденциями. Проявляю максимальную аккуратность и внимательность к своей работе и пожеланиям сидящего в кресле гостя. Всегда поддержу беседу по всем направлениям, от small talk о погоде до путешествий, которые я очень люблю.
+            </p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="img/img-2.jpg" alt="#">
+                <div class="user-info">
+                    <h4>Татьяна Шимкевич <i class="fa fa-twitter"></i> </h4>
+                    <small>@tattti88</small>
+                </div>
+            </div>
+            <p>
+                «Я уверена, что в основе результата должно лежать не только вдохновение мастера, но и ясная, логически выверенная схема — и тогда он предсказуем». 
+            </p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="img/img-3.jpg" alt="#">
+                <div class="user-info">
+                    <h4>Леонид Барычев <i class="fa fa-twitter"></i> </h4>
+                    <small>@barbermisk</small>
+                </div>
+            </div>
+            <p>
+                Мое увлечение мужскими стрижками началось еще с армейского времени, а после возвращения домой я начал заниматься этим профессионально с первых же дней. С тех самых пор стригу всегда и везде, ведь даже в отпуске у меня с собой ножницы и машинки для стрижки.Люблю выполнять как короткие стрижки, так и классику на длинные волосы и волосы средней длины. Всегда рад поделиться опытом и дать нужный совет по уходу за волосами и бородой, а также постоянно черпаю знания у лучших барберов со всего мира и конечно у своих коллег.
+            </p>
+        </div>
+    </div>
+
+</section>
+<!--sliider-->
+<section class="slid" id="job">
+    <div class="slider">
+        <div class="slider__item">
+            <img src="img/slikk2.jpg" alt="#">
+        </div>
+        <div class="slider__item">
+            <img src="img/slick (1).jpg" alt="#">
+        </div>
+        <div class="slider__item">
+            <img src="img/slick3.jpg" alt="#">
+        </div>
+        <div class="slider__item">
+            <img src="img/slick__2.jpg" alt="#">
+        </div>
+    </div>
+
+
+</section>
+<!--Price-->
+<section class="denushki" id="sale">
+    <div class="title-text">
+        <p>Обратите внимание</p>
+        <h2>Наши цены</h2>
+    </div> 
+    <div class="cena">
+    <table class="price">
+        <tr>
+          <th class="th"></th>
+          <th class="th">Barber</th>
+          <th class="th">Barber Pro</th>
+          <!-- <th class="th">Barber Top</th> -->
+        </tr>
+        <tr>
+          <td class="td">Мужская стрижка</td>
+          <td class="td">1000 RUB</td>
+          <td class="td">4000 RUB</td>
+        <!--  <td class="td">590 RUB</td> -->
+        </tr>
+        <tr>
+            <td class="td">Стрижка машинкой</td>
+            <td class="td">2000 RUB</td>
+            <td class="td">4500 RUB</td>
+         <!--   <td class="td">350 RUB</td> -->
+          </tr>
+          <tr>
+            <td class="td">Стрижка ножницами</td>
+            <td class="td">3000 RUB</td>
+            <td class="td">6000 RUB</td>
+         <!--   <td class="td">700 RUB</td> -->
+          </tr>
+          <tr>
+            <td class="td">Укладка</td>
+            <td class="td">500 RUB</td>
+            <td class="td">1000 RUB</td>
+           <!--  <td class="td">150 RUB</td> -->
+          </tr>
+          <tr>
+            <td class="td">Бритье опасной бритвой</td>
+            <td class="td">3000 RUB</td>
+            <td class="td">4900 RUB</td>
+            <!-- <td class="td">550 RUB</td> -->
+          </tr>
+          <tr>
+            <td class="td">Камуфляж бороды</td>
+            <td class="td">1000 RUB</td>
+            <td class="td">1500 RUB</td>
+           <!--  <td class="td">200 RUB</td> -->
+          </tr>
+          <tr>
+            <td class="td">Моделирование бороды</td>
+            <td class="td">1500 RUB</td>
+            <td class="td">2500 RUB</td>
+           <!--  <td class="td">300 RUB</td> -->
+          </tr>
+          <tr>
+            <td class="td">Массаж головы</td>
+            <td class="td">1000 RUB</td>
+            <td class="td">1500 RUB</td>
+           <!--  <td class="td">200 RUB</td> -->
+          </tr>
+          <tr>
+            <td class="td">Глубокое очищение кожи головы</td>
+            <td class="td">1000 RUB</td>
+            <td class="td">1500 RUB</td>
+           <!--  <td class="td">200 RUB</td> -->
+          </tr>
+          <tr>
+            <td class="td">Детская стрижка</td>
+            <td class="td">1000 RUB</td>
+            <td class="td">1500 RUB</td>
+          <!--   <td class="td">200 RUB</td> -->
+          </tr>
+          <tr>
+            <td class="td">Стрижка + бритье</td>
+            <td class="td">4000 RUB</td>
+            <td class="td">4500 RUB</td>
+          <!--   <td class="td">500 RUB</td> -->
+          </tr>
+      </table>
+    </div>
+</section>
+
+
+
+
+
+<!--footer-->
+<section id="footer">
+    <img src="img/footer-img.png" alt="#" class="footer-img">
+    <div class="title-text">
+        <p>Контакты</p>
+        <h2>Ждем Вас в любой день недели !</h2>
+    </div>
+
+    <div class="footer-row">
+        <div class="footer-left">
+            <h2>Часы работы</h2>
+            <p> <i class="fa fa-clock-o"></i> понедельник - пятница - 9:00 - 19:00</p>
+            <p> <i class="fa fa-clock-o"></i> суббота - воскресенье - 8:00 - 17:00</p>
+        </div>
+        <div class="footer-right">
+            <h2>Связаться</h2>
+            <p>#ул Самарская, д 18<i class="fa fa-map-marker"></i> </p>
+            <p>ducat28@website.com <i class="fa fa-twitter"></i> </p>
+            <p>88292020327 <i class="fa fa-phone"></i> </p>
+        </div>
+    </div>
+  
+
+    <div class="social-links">
+        <span>
+            <a href="https://www.instagram.com/acount__02022022/?hl=ru" target="blank"> <i class="fa fa-facebook"></i></a>
+        </span>
+        <span>
+            <a href="https://www.instagram.com/acount__02022022/?hl=ru" target="blank"> <i class="fa fa-instagram"></i></a>
+        </span>
+        <span>
+            <a href="https://www.instagram.com/acount__02022022/?hl=ru" target="blank">
+                <i class="fa fa-twitter"></i></a>
+        </span>
+        <span>
+            <a href="https://www.instagram.com/acount__02022022/?hl=ru" target="blank"><i class="fa fa-youtube-play"></i></a>
+        </span>
+            
+        
+    
+           
+        
+        
+       
+      
+            
+        
+  
+      
+    
+    <p>Самара 2022</p>
+</div>
+
+</section>
+
+<!---------------------Script--------------------->
+
+
+
+
+
+<script src="libs/jquery.js"></script>
+
+
+
+<script src="js/slick.min.js"></script>
+
+
+<script src="js/popup.js"></script>
+
+<script src="js/slider.js"></script>
+
+
+<script src="js/form.js"></script>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "img/close.png";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "img/menu.png";
+            }
+        }
+
+
+
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+    </script>
+    
+</body>
+</html>    
